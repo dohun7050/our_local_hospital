@@ -1,0 +1,2 @@
+const rows=[['중구','종합진료','가상 중구 종합병원'],['동구','내과','가상 동구 내과의원'],['북구','이비인후과','가상 북구 이비인후과의원'],['수성구','정형외과','가상 수성구 정형외과의원'],['중구','소아청소년과','가상 중구 소아청소년과의원'],['동구','안과','가상 동구 안과의원'],['북구','피부과','가상 북구 피부과의원'],['수성구','치과','가상 수성구 치과의원']];
+export const demo=rows.map(([district,department,place_name],i)=>({id:`demo-${i}`,district,department,place_name,address_name:`대구 ${district} · 가상 데이터`,type:'unknown',demo:true}));
