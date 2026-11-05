@@ -1,4 +1,4 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {groupPlaces,validLocation} from './logic.mjs';
-test('설립 주체를 이름만으로 추정하지 않음',()=>{const g=groupPlaces([{id:'1',place_name:'공공느낌병원'},{id:'2',place_name:'개인의원'}],[]);assert.equal(g.public.length,0);assert.equal(g.private.length,0);assert.equal(g.unknown.length,2);});
+test('공공 미확인 결과는 앱 규칙에 따라 민간에 포함',()=>{const g=groupPlaces([{id:'1',place_name:'공공느낌병원'},{id:'2',place_name:'개인의원'}],[]);assert.equal(g.public.length,0);assert.equal(g.private.length,2);assert.equal(g.unknown.length,0);});
 test('분류 검증과 중복 제거 및 공공 2 민간 3개 상한',()=>{const p=Array.from({length:10},(_,i)=>({id:String(i)}));const r=p.map((p,i)=>({kakaoId:p.id,type:i<4?'public':'private',source:'https://example.org',operator:'확인된 운영자'}));const g=groupPlaces([...p,...p],r);assert.equal(g.public.length,2);assert.equal(g.private.length,3);assert.equal(g.unknown.length,0);});
 test('위도 경도 유효성',()=>{assert.equal(validLocation(128.6,35.8),true);assert.equal(validLocation(undefined,35),false);assert.equal(validLocation(181,35),false);});

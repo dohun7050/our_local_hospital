@@ -1,0 +1,124 @@
+[
+  {
+    "name": "경북대학교병원",
+    "district": "중구",
+    "address": "동덕로 130",
+    "departments": [
+      "내과",
+      "가정의학과",
+      "이비인후과",
+      "정형외과",
+      "소아청소년과",
+      "안과",
+      "피부과",
+      "신경과",
+      "신경외과",
+      "산부인과",
+      "비뇨의학과",
+      "정신건강의학과",
+      "외과",
+      "재활의학과"
+    ],
+    "operator": "경북대학교병원",
+    "source": "https://www.knuh.kr/content/06introduce/06_0202.asp",
+    "status": "verified"
+  },
+  {
+    "name": "경북대학교치과병원",
+    "district": "중구",
+    "address": "달구벌대로 2175",
+    "departments": [
+      "치과"
+    ],
+    "operator": "경북대학교치과병원",
+    "source": "https://www.knudh.kr/index.php",
+    "status": "verified"
+  },
+  {
+    "name": "칠곡경북대학교병원",
+    "district": "북구",
+    "address": "호국로 807",
+    "departments": [
+      "내과",
+      "가정의학과",
+      "이비인후과",
+      "정형외과",
+      "안과",
+      "피부과",
+      "치과",
+      "신경과",
+      "신경외과",
+      "산부인과",
+      "비뇨의학과",
+      "정신건강의학과",
+      "외과",
+      "재활의학과"
+    ],
+    "operator": "경북대학교병원",
+    "source": "https://www.knuch.kr/content/02depart/01_01.asp",
+    "status": "verified"
+  },
+  {
+    "name": "근로복지공단 대구병원",
+    "district": "북구",
+    "address": "학정로 515",
+    "departments": [
+      "내과",
+      "정형외과",
+      "신경외과",
+      "이비인후과",
+      "재활의학과"
+    ],
+    "operator": "근로복지공단",
+    "source": "https://www.data.go.kr/data/15135834/fileData.do",
+    "status": "2024-05-31"
+  },
+  {
+    "name": "북구보건소",
+    "district": "북구",
+    "address": "성북로 49",
+    "departments": [
+      "내과"
+    ],
+    "operator": "대구광역시 북구",
+    "source": "https://www.buk.daegu.kr/health/index.do?menu_id=00000606",
+    "status": "verified",
+    "note": "만 15세 이상 · 만성질환 및 1차 내과진료"
+  },
+  {
+    "name": "동구보건소",
+    "district": "동구",
+    "address": "동촌로 79",
+    "departments": [],
+    "operator": "대구광역시 동구",
+    "source": "https://www.dong.daegu.kr/health/",
+    "status": "department-review-needed"
+  },
+  {
+    "name": "수성구보건소",
+    "district": "수성구",
+    "address": "수성로 213",
+    "departments": [],
+    "operator": "대구광역시 수성구",
+    "source": "https://www.suseong.kr/health/index.do?menu_id=00000858",
+    "status": "department-review-needed"
+  },
+  {
+    "name": "중구보건소",
+    "district": "중구",
+    "address": "태평로 45",
+    "departments": [],
+    "operator": "대구광역시 중구",
+    "source": "https://www.jung.daegu.kr/new/healthcenter/pages/main/",
+    "status": "department-review-needed"
+  },
+  {
+    "name": "강북보건지소",
+    "district": "북구",
+    "address": "대천로 81",
+    "departments": [],
+    "operator": "대구광역시 북구",
+    "source": "https://www.buk.daegu.kr/gangbuk/index.do?menu_id=00000692",
+    "status": "department-review-needed"
+  }
+]
